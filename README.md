@@ -1,5 +1,5 @@
 # ChatRoom
-Real Time Chat app with multiple chat room No database.
+Real Time Chat app with multiple chat room with No database using node.js.
 
 intsall following libraries:
 
