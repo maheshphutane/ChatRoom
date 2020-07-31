@@ -1,5 +1,6 @@
 //const moment = require('moment');
 var today = new Date();
+today.toLocaleTimeString()
 function formatMessage(username, text) {
   return {
     username,
