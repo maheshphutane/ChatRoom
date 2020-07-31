@@ -1,11 +1,11 @@
-//const moment = require('moment');
-var today = new Date();
-today.toLocaleTimeString()
+const moment = require('moment');
+
+//today.toLocaleTimeString()
 function formatMessage(username, text) {
   return {
     username,
     text,
-    time: today.getHours() + ":" + today.getMinutes()
+    time: moment().utcOffset("+05:30").format('h:mm a')
   };
 }
 
